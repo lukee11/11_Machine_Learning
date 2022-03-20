@@ -4,7 +4,7 @@
 
 ## Background
 
-This repository evaluates several machine learning models to predict credit risk using data you'd typically see from peer-to-peer lending services. Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans), so we employ different techniques for training and evaluating models with imbalanced classes. I used the imbalanced-learn and Scikit-learn libraries to build and evaluate models using resampling and ensemble learning.
+This repository evaluates several machine learning models to predict credit risk using data from peer-to-peer lending services. Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans), so we employ different techniques for training and evaluating models with imbalanced classes. I used the imbalanced-learn and Scikit-learn libraries to build and evaluate models using resampling and ensemble learning.
 
 - - -
 
@@ -44,19 +44,19 @@ They all had a geo score of 0.99.
 
 ## Ensemble Questions
 
-Which model had the best balanced accuracy score?
+*Which model had the best balanced accuracy score?*
 
-*The Easy Ensemble Classifier had the best accuracy score of 0.9309.*
+The Easy Ensemble Classifier had the best accuracy score of 0.9309.
 
-Which model had the best recall score?
+*Which model had the best recall score?*
 
-*The Easy Ensemble Classifier had the best recall score of 0.94.*
+The Easy Ensemble Classifier had the best recall score of 0.94.
 
-Which model had the best geometric mean score?
+*Which model had the best geometric mean score?*
 
-*The Easy Ensemble Classifier had the best geo score of 0.93.*
+The Easy Ensemble Classifier had the best geo score of 0.93.
 
-What are the top three features?
+*What are the top three features?*
 
 The top three features are total_rec_prncp, last_pymnt_amnt and total_pymnt_inv.
 
